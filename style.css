@@ -8,8 +8,8 @@ body {
   background-color: #efefef;
 }
 .container {
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto 1rem auto;
 }
 h1 {
   padding: 2rem;
@@ -27,21 +27,25 @@ h1 {
 
 .member-card {
   width: 33.33%;
-  min-width: 250px;
-  max-width: 375px;
-  padding: 0.5rem;
+
+  min-width: 280px;
+
+  padding: 1rem;
   animation: cardAnimation 0.6s forwards;
   transform: translateX(-300%);
 }
 
 .member-info {
+  max-width: 300px;
+  min-height: 350px;
+  margin: 0 auto;
   position: relative;
   z-index: 3;
   background: #f9f9f9;
   border-radius: 20px;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   padding: 1rem;
@@ -55,7 +59,7 @@ h1 {
   left: 0;
   content: "";
   z-index: -1;
-  height: 120px;
+  height: 220px;
   width: 125%;
   transform: rotate(-10deg) translate(-10%, -60%);
   transform-origin: center;
@@ -64,19 +68,19 @@ h1 {
   padding-bottom: 1rem;
 }
 .icon {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   padding: 0;
   border-radius: 50%;
-  background-color: #efefef;
-  font-size: 1.7rem;
+  background-color: #f9f9f9;
+  font-size: 2.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 .member-info > h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .member-info span {
@@ -84,9 +88,9 @@ h1 {
   font-weight: bold;
 }
 .member-info p {
-  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
   font-family: "Segoe UI";
-  text-align: left;
 }
 
 @keyframes cardAnimation {
@@ -108,4 +112,3 @@ h1 {
 .font-orange {
   color: #f2542d;
 }
-
