@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: #efefef;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  padding: 2rem;
+  color: #2f4162;
+  text-align: center;
+}
+
+.members-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  width: 33.33%;
+  min-width: 250px;
+  max-width: 375px;
+  padding: 0.5rem;
+  animation: cardAnimation 0.6s forwards;
+  transform: translateX(-300%);
+}
+
+.member-info {
+  position: relative;
+  z-index: 3;
+  background: #f9f9f9;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 0.8rem;
+  box-shadow: 7px 7px 14px #cecece, -7px -7px 14px #f2f2f2;
+  overflow: hidden;
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+  height: 120px;
+  width: 125%;
+  transform: rotate(-10deg) translate(-10%, -60%);
+  transform-origin: center;
+}
+.member-info > * {
+  padding-bottom: 1rem;
+}
+.icon {
+  margin-top: 0.5rem;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #efefef;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+.member-info > h2 {
+  font-size: 1.1rem;
+}
+
+.member-info span {
+  color: #2f4162;
+  font-weight: bold;
+}
+.member-info p {
+  font-size: 0.9rem;
+  font-family: "Segoe UI";
+  text-align: left;
+}
+
+@keyframes cardAnimation {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Customized colors */
+
+/* for overlay element */
+.bg-wheat {
+  background-color: #f5dfbb;
+}
+/* for h2 and icon */
+.font-orange {
+  color: #f2542d;
+}
+
