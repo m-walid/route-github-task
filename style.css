@@ -109,9 +109,12 @@ h1 {
   background-color: #f5dfbb;
 }
 
-
-.bg-slategrey{
+.bg-slategrey {
   background-color: rgb(166, 219, 202);
+}
+
+.bg-lightPurple {
+  background-color: #baafde;
 }
 
 /* for h2 and icon */
@@ -119,6 +122,10 @@ h1 {
   color: #f2542d;
 }
 
-.font-mint{
+.font-mint {
   color: rgb(77, 143, 121);
+}
+
+.font-purple {
+  color: #756a98;
 }
