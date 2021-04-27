@@ -3,14 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   background-color: #efefef;
 }
+
 .container {
   width: 80%;
   margin: 0 auto 1rem auto;
 }
+
 h1 {
   padding: 2rem;
   color: #2f4162;
@@ -53,6 +56,7 @@ h1 {
   box-shadow: 7px 7px 14px #cecece, -7px -7px 14px #f2f2f2;
   overflow: hidden;
 }
+
 .card-overlay {
   position: absolute;
   top: 0;
@@ -64,9 +68,11 @@ h1 {
   transform: rotate(-10deg) translate(-10%, -60%);
   transform-origin: center;
 }
-.member-info > * {
+
+.member-info>* {
   padding-bottom: 1rem;
 }
+
 .icon {
   margin-top: 2rem;
   padding: 0;
@@ -79,7 +85,8 @@ h1 {
   width: 80px;
   height: 80px;
 }
-.member-info > h2 {
+
+.member-info>h2 {
   font-size: 1.3rem;
 }
 
@@ -87,6 +94,7 @@ h1 {
   color: #2f4162;
   font-weight: bold;
 }
+
 .member-info p {
   margin-top: 0.5rem;
   font-size: 1.1rem;
@@ -97,6 +105,7 @@ h1 {
   from {
     transform: translateX(-300%);
   }
+
   to {
     transform: translateX(0);
   }
@@ -128,4 +137,13 @@ h1 {
 
 .font-purple {
   color: #756a98;
+}
+
+
+.bg-yellowgreen {
+  background-color: yellowgreen;
+}
+
+.font-blue {
+  color: #2f4162;
 }
