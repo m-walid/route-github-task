@@ -108,7 +108,17 @@ h1 {
 .bg-wheat {
   background-color: #f5dfbb;
 }
+
+
+.bg-slategrey{
+  background-color: rgb(166, 219, 202);
+}
+
 /* for h2 and icon */
 .font-orange {
   color: #f2542d;
+}
+
+.font-mint{
+  color: rgb(77, 143, 121);
 }
