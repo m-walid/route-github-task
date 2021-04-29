@@ -126,6 +126,14 @@ h1 {
   background-color: #baafde;
 }
 
+.bg-yellowgreen {
+  background-color: yellowgreen;
+}
+
+.bg-light-blue{
+  background-color: #74ddf0;
+}
+
 /* for h2 and icon */
 .font-orange {
   color: #f2542d;
@@ -139,11 +147,10 @@ h1 {
   color: #756a98;
 }
 
-
-.bg-yellowgreen {
-  background-color: yellowgreen;
-}
-
 .font-blue {
   color: #2f4162;
+}
+
+.font-light-blue{
+  color: #16c5e4;
 }
